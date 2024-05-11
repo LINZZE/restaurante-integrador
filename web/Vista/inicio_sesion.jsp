@@ -23,7 +23,7 @@
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item"><a class="nav-link" href="../index.jsp" style="font-family: Artifika, serif;">Inicio</a></li>
                     <li class="nav-item"><a class="nav-link" href="galeria.jsp" style="font-family: Artifika, serif;">Galería</a></li>
-                    <li class="nav-item"><a class="nav-link" href="platillo.jsp" style="font-family: Artifika, serif;">Realizar Pedido</a></li>
+                    <li class="nav-item"><a class="nav-link" href="platillo.jsp" style="font-family: Artifika, serif;">Menú</a></li>
                     <li class="nav-item"><a class="nav-link" href="nosotros.jsp" style="font-family: Artifika, serif;">Sobre Nosotros</a></li>
                     <li class="nav-item"><a class="nav-link" href="contactanos.jsp" style="font-family: Artifika, serif;">Contacto</a></li>
                 </ul><a class="btn shadow" role="button" href="registro.jsp" style="font-family: Artifika, serif;background: #e1a219;color: var(--bs-emphasis-color);">Registrarme</a>
@@ -49,7 +49,7 @@
                                 <div class="mb-3"><label class="form-label text-light" for="email">Correo Electrónico</label><input class="form-control" type="email" name="email"></div>
                                 <div class="mb-5"><label class="form-label text-light" for="password">Contraseña</label><input class="form-control" type="password" name="password"></div>
                                 <div class="mb-3"><button class="btn btn-primary bg-dark shadow-lg d-block w-100" type="submit">Iniciar Sesión</button></div>
-                                <p class="text-light text-center">¿No recuerdas tu contraseña?&nbsp;<a href="inicio_sesion.jsp">Recuperar contraseña</a></p>
+                                <p class="text-light text-center">¿No recuerdas tu contraseña?&nbsp;<a href="restaurar_pass.jsp">Recuperar contraseña</a></p>
                             </form>
                         </div>
                     </div>

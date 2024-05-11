@@ -25,7 +25,7 @@
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item"><a class="nav-link" href="../index.jsp" style="font-family: Artifika, serif;">Inicio</a></li>
                     <li class="nav-item"><a class="nav-link" href="galeria.jsp" style="font-family: Artifika, serif;">Galería</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="platillo.jsp" style="font-family: Artifika, serif;">Realizar Pedido</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="platillo.jsp" style="font-family: Artifika, serif;">Menú</a></li>
                     <li class="nav-item"><a class="nav-link" href="nosotros.jsp" style="font-family: Artifika, serif;">Sobre Nosotros</a></li>
                     <li class="nav-item"><a class="nav-link" href="contactanos.jsp" style="font-family: Artifika, serif;">Contacto</a></li>
                 </ul><a class="btn shadow" role="button" href="registro.jsp" style="font-family: Artifika, serif;background: #e1a219;color: var(--bs-emphasis-color);">Registrarme</a>
@@ -35,114 +35,253 @@
     <section id="contenido" class="py-5" style="background: #f5f6f8;">
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-lg-8">
                     <div class="contenido">
-                        <h1 class="text-dark" id="platillos">Listado de platillo</h1>
-                        <div class="d-flex mb-3 p-2" style="box-shadow: 0px 5px 20px #c5c5c5;border-radius: 32px;"><a class="btn btn-primary" role="button" href="#segundos">Segundos</a><a class="btn btn-primary mx-2" role="button" href="#sopas">Sopas</a><button class="btn btn-primary" type="button">Sopas</button><button class="btn btn-primary mx-2" type="button">Sopas</button></div>
-                        <div id="segundos">
-                            <h2 class="text-dark" id="segundos">Segundos</h2>
-                            <div class="row">
-                                <div class="col-md-4 mb-5">
-                                    <div class="card text-bg-light" style="overflow: hidden;box-shadow: 0px 5px 20px #c5c5c5;"><img class="card-img-top w-100 d-block" alt="Pancake With Sliced Strawberry" src="../assets/img/pexels-photo-376464.jpeg">
-                                        <div class="card-body text-center">
-                                            <h4 class="card-title">Plato 1</h4>
-                                            <p class="card-text">S/. 00000</p><button class="btn btn-primary w-100" type="button">Añadir</button>
+                        <h3 class="text-dark-emphasis mb-4" id="platillos">Listado de platillos</h3>
+                        <div>
+                            <ul class="nav nav-pills nav-fill mb-3 p-2" role="tablist" id="categoria" style="background: var(--bs-nav-pills-link-active-color);box-shadow: 0px 5px 20px #c5c5c5;border-radius: 30px;position: sticky;">
+                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="pill" href="#tab-1" style="border-radius: 20px;">Segundos</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="pill" href="#tab-2" style="border-radius: 20px;">Sopas</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="pill" href="#tab-3" style="border-radius: 20px;">Bebidas</a></li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane" role="tabpanel" id="tab-1">
+                                    <div id="segundos">
+                                        <div class="row">
+                                            <div class="col-lg-4 mb-5">
+                                                <div class="card text-dark-emphasis text-bg-light" style="overflow: hidden;box-shadow: 0px 5px 20px #c5c5c5;border-radius: 32px;">
+                                                    <div><img class="img-fluid" src="../assets/img/segundo%201.png"></div>
+                                                    <div class="card-body text-center">
+                                                        <h4 class="card-title">Plato 1</h4>
+                                                        <p class="card-text">S/. 00000</p><button class="btn btn-primary w-100" type="button" style="background: #e6572a;border-style: none;">Añadir</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 mb-5">
+                                                <div class="card text-dark-emphasis text-bg-light" style="overflow: hidden;box-shadow: 0px 5px 20px #c5c5c5;border-radius: 32px;">
+                                                    <div><img class="img-fluid" src="../assets/img/segundo%201.png"></div>
+                                                    <div class="card-body text-center">
+                                                        <h4 class="card-title">Plato 1</h4>
+                                                        <p class="card-text">S/. 00000</p><button class="btn btn-primary w-100" type="button" style="background: #e6572a;border-style: none;">Añadir</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 mb-5">
+                                                <div class="card text-dark-emphasis text-bg-light" style="overflow: hidden;box-shadow: 0px 5px 20px #c5c5c5;border-radius: 32px;">
+                                                    <div><img class="img-fluid" src="../assets/img/segundo%201.png"></div>
+                                                    <div class="card-body text-center">
+                                                        <h4 class="card-title">Plato 1</h4>
+                                                        <p class="card-text">S/. 00000</p><button class="btn btn-primary w-100" type="button" style="background: #e6572a;border-style: none;">Añadir</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 mb-5">
+                                                <div class="card text-dark-emphasis text-bg-light" style="overflow: hidden;box-shadow: 0px 5px 20px #c5c5c5;border-radius: 32px;">
+                                                    <div><img class="img-fluid" src="../assets/img/segundo%201.png"></div>
+                                                    <div class="card-body text-center">
+                                                        <h4 class="card-title">Plato 1</h4>
+                                                        <p class="card-text">S/. 00000</p><button class="btn btn-primary w-100" type="button" style="background: #e6572a;border-style: none;">Añadir</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 mb-5">
+                                                <div class="card text-dark-emphasis text-bg-light" style="overflow: hidden;box-shadow: 0px 5px 20px #c5c5c5;border-radius: 32px;">
+                                                    <div><img class="img-fluid" src="../assets/img/segundo%201.png"></div>
+                                                    <div class="card-body text-center">
+                                                        <h4 class="card-title">Plato 1</h4>
+                                                        <p class="card-text">S/. 00000</p><button class="btn btn-primary w-100" type="button" style="background: #e6572a;border-style: none;">Añadir</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 mb-5">
+                                                <div class="card text-dark-emphasis text-bg-light" style="overflow: hidden;box-shadow: 0px 5px 20px #c5c5c5;border-radius: 32px;">
+                                                    <div><img class="img-fluid" src="../assets/img/segundo%201.png"></div>
+                                                    <div class="card-body text-center">
+                                                        <h4 class="card-title">Plato 1</h4>
+                                                        <p class="card-text">S/. 00000</p><button class="btn btn-primary w-100" type="button" style="background: #e6572a;border-style: none;">Añadir</button>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 mb-5">
-                                    <div class="card text-bg-light" style="overflow: hidden;box-shadow: 0px 5px 20px #c5c5c5;"><img class="card-img-top w-100 d-block" alt="Pancake With Sliced Strawberry" src="../assets/img/pexels-photo-376464.jpeg">
-                                        <div class="card-body text-center">
-                                            <h4 class="card-title">Plato 1</h4>
-                                            <p class="card-text">S/. 00000</p><button class="btn btn-primary w-100" type="button">Añadir</button>
+                                <div class="tab-pane" role="tabpanel" id="tab-2">
+                                    <div id="sopas">
+                                        <div class="row">
+                                            <div class="col-md-4 mb-5">
+                                                <div class="card text-bg-light" style="overflow: hidden;box-shadow: 0px 1px 20px #ababab;border-radius: 32px;"><img class="card-img-top w-100 d-block" src="../assets/img/sopa2.png">
+                                                    <div class="card-body text-center">
+                                                        <h4 class="card-title">Sopas</h4>
+                                                        <p class="card-text">S/. 00000</p><button class="btn btn-primary w-100" type="button" style="background: #e6572a;border-style: none;">Añadir</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-5">
+                                                <div class="card text-bg-light" style="overflow: hidden;box-shadow: 0px 1px 20px #ababab;border-radius: 32px;"><img class="card-img-top w-100 d-block" alt="soup, vegetable, japanese meal" src="../assets/img/gd9c84d7023762a5dbcb87eee77e9a8cbaeef4ec18c7af3d2381fd09ba714641c2e43f61b89bba5b1afa6f41a761b3d2537473be7cb29df5f4cf52c03b547a1a2_640.jpg">
+                                                    <div class="card-body text-center">
+                                                        <h4 class="card-title">Sopas</h4>
+                                                        <p class="card-text">S/. 00000</p><button class="btn btn-primary w-100" type="button" style="background: #e6572a;border-style: none;">Añadir</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-5">
+                                                <div class="card text-bg-light" style="overflow: hidden;box-shadow: 0px 1px 20px #ababab;border-radius: 32px;"><img class="card-img-top w-100 d-block" alt="soup, vegetable, japanese meal" src="../assets/img/gd9c84d7023762a5dbcb87eee77e9a8cbaeef4ec18c7af3d2381fd09ba714641c2e43f61b89bba5b1afa6f41a761b3d2537473be7cb29df5f4cf52c03b547a1a2_640.jpg">
+                                                    <div class="card-body text-center">
+                                                        <h4 class="card-title">Sopas</h4>
+                                                        <p class="card-text">S/. 00000</p><button class="btn btn-primary w-100" type="button" style="background: #e6572a;border-style: none;">Añadir</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-5">
+                                                <div class="card text-bg-light" style="overflow: hidden;box-shadow: 0px 1px 20px #ababab;border-radius: 32px;"><img class="card-img-top w-100 d-block" alt="soup, vegetable, japanese meal" src="../assets/img/gd9c84d7023762a5dbcb87eee77e9a8cbaeef4ec18c7af3d2381fd09ba714641c2e43f61b89bba5b1afa6f41a761b3d2537473be7cb29df5f4cf52c03b547a1a2_640.jpg">
+                                                    <div class="card-body text-center">
+                                                        <h4 class="card-title">Sopas</h4>
+                                                        <p class="card-text">S/. 00000</p><button class="btn btn-primary w-100" type="button" style="background: #e6572a;border-style: none;">Añadir</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-5">
+                                                <div class="card text-bg-light" style="overflow: hidden;box-shadow: 0px 1px 20px #ababab;border-radius: 32px;"><img class="card-img-top w-100 d-block" alt="soup, vegetable, japanese meal" src="../assets/img/gd9c84d7023762a5dbcb87eee77e9a8cbaeef4ec18c7af3d2381fd09ba714641c2e43f61b89bba5b1afa6f41a761b3d2537473be7cb29df5f4cf52c03b547a1a2_640.jpg">
+                                                    <div class="card-body text-center">
+                                                        <h4 class="card-title">Sopas</h4>
+                                                        <p class="card-text">S/. 00000</p><button class="btn btn-primary w-100" type="button" style="background: #e6572a;border-style: none;">Añadir</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-5">
+                                                <div class="card text-bg-light" style="overflow: hidden;box-shadow: 0px 1px 20px #ababab;border-radius: 32px;"><img class="card-img-top w-100 d-block" alt="soup, vegetable, japanese meal" src="../assets/img/gd9c84d7023762a5dbcb87eee77e9a8cbaeef4ec18c7af3d2381fd09ba714641c2e43f61b89bba5b1afa6f41a761b3d2537473be7cb29df5f4cf52c03b547a1a2_640.jpg">
+                                                    <div class="card-body text-center">
+                                                        <h4 class="card-title">Sopas</h4>
+                                                        <p class="card-text">S/. 00000</p><button class="btn btn-primary w-100" type="button" style="background: #e6572a;border-style: none;">Añadir</button>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 mb-5">
-                                    <div class="card text-bg-light" style="overflow: hidden;box-shadow: 0px 5px 20px #c5c5c5;"><img class="card-img-top w-100 d-block" alt="Pancake With Sliced Strawberry" src="../assets/img/pexels-photo-376464.jpeg">
-                                        <div class="card-body text-center">
-                                            <h4 class="card-title">Plato 1</h4>
-                                            <p class="card-text">S/. 00000</p><button class="btn btn-primary w-100" type="button">Añadir</button>
+                                <div class="tab-pane active" role="tabpanel" id="tab-3">
+                                    <div id="segundos-1">
+                                        <div class="row">
+                                            <div class="col-md-4 mb-5">
+                                                <div class="card text-dark-emphasis text-bg-light" style="overflow: hidden;box-shadow: 0px 5px 20px #c5c5c5;border-radius: 32px;"><img class="card-img-top w-100 d-block" src="../assets/img/bebida.png">
+                                                    <div class="card-body text-center">
+                                                        <h4 class="card-title">Bebida 1</h4>
+                                                        <p class="card-text">S/. 00000</p><button class="btn btn-primary w-100" type="button" style="background: #e6572a;border-style: none;">Añadir</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-5">
+                                                <div class="card text-dark-emphasis text-bg-light" style="overflow: hidden;box-shadow: 0px 5px 20px #c5c5c5;border-radius: 32px;"><img class="card-img-top w-100 d-block" src="../assets/img/bebida.png">
+                                                    <div class="card-body text-center">
+                                                        <h4 class="card-title">Bebida 1</h4>
+                                                        <p class="card-text">S/. 00000</p><button class="btn btn-primary w-100" type="button" style="background: #e6572a;border-style: none;">Añadir</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-5">
+                                                <div class="card text-dark-emphasis text-bg-light" style="overflow: hidden;box-shadow: 0px 5px 20px #c5c5c5;border-radius: 32px;"><img class="card-img-top w-100 d-block" src="../assets/img/bebida.png">
+                                                    <div class="card-body text-center">
+                                                        <h4 class="card-title">Bebida 1</h4>
+                                                        <p class="card-text">S/. 00000</p><button class="btn btn-primary w-100" type="button" style="background: #e6572a;border-style: none;">Añadir</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-5">
+                                                <div class="card text-dark-emphasis text-bg-light" style="overflow: hidden;box-shadow: 0px 5px 20px #c5c5c5;border-radius: 32px;"><img class="card-img-top w-100 d-block" src="../assets/img/bebida.png">
+                                                    <div class="card-body text-center">
+                                                        <h4 class="card-title">Bebida 1</h4>
+                                                        <p class="card-text">S/. 00000</p><button class="btn btn-primary w-100" type="button" style="background: #e6572a;border-style: none;">Añadir</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-5">
+                                                <div class="card text-dark-emphasis text-bg-light" style="overflow: hidden;box-shadow: 0px 5px 20px #c5c5c5;border-radius: 32px;"><img class="card-img-top w-100 d-block" src="../assets/img/bebida.png">
+                                                    <div class="card-body text-center">
+                                                        <h4 class="card-title">Bebida 1</h4>
+                                                        <p class="card-text">S/. 00000</p><button class="btn btn-primary w-100" type="button" style="background: #e6572a;border-style: none;">Añadir</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-5">
+                                                <div class="card text-dark-emphasis text-bg-light" style="overflow: hidden;box-shadow: 0px 5px 20px #c5c5c5;border-radius: 32px;"><img class="card-img-top w-100 d-block" src="../assets/img/bebida.png">
+                                                    <div class="card-body text-center">
+                                                        <h4 class="card-title">Bebida 1</h4>
+                                                        <p class="card-text">S/. 00000</p><button class="btn btn-primary w-100" type="button" style="background: #e6572a;border-style: none;">Añadir</button>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 mb-5">
-                                    <div class="card text-bg-light" style="overflow: hidden;box-shadow: 0px 5px 20px #c5c5c5;"><img class="card-img-top w-100 d-block" alt="Pancake With Sliced Strawberry" src="../assets/img/pexels-photo-376464.jpeg">
-                                        <div class="card-body text-center">
-                                            <h4 class="card-title">Plato 1</h4>
-                                            <p class="card-text">S/. 00000</p><button class="btn btn-primary w-100" type="button">Añadir</button>
-                                        </div>
-                                    </div>
+                                <div class="tab-pane" role="tabpanel" id="tab-6">
+                                    <p>Tab content.</p>
                                 </div>
-                                <div class="col-md-4 mb-5">
-                                    <div class="card text-bg-light" style="overflow: hidden;box-shadow: 0px 5px 20px #c5c5c5;"><img class="card-img-top w-100 d-block" alt="Pancake With Sliced Strawberry" src="../assets/img/pexels-photo-376464.jpeg">
-                                        <div class="card-body text-center">
-                                            <h4 class="card-title">Plato 1</h4>
-                                            <p class="card-text">S/. 00000</p><button class="btn btn-primary w-100" type="button">Añadir</button>
-                                        </div>
-                                    </div>
+                                <div class="tab-pane" role="tabpanel" id="tab-5">
+                                    <p>Tab content.</p>
                                 </div>
-                                <div class="col-md-4 mb-5">
-                                    <div class="card text-bg-light" style="overflow: hidden;box-shadow: 0px 5px 20px #c5c5c5;"><img class="card-img-top w-100 d-block" alt="Pancake With Sliced Strawberry" src="../assets/img/pexels-photo-376464.jpeg">
-                                        <div class="card-body text-center">
-                                            <h4 class="card-title">Plato 1</h4>
-                                            <p class="card-text">S/. 00000</p><button class="btn btn-primary w-100" type="button">Añadir</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="sopas">
-                            <h2 class="text-dark" id="sopas">Sopas</h2>
-                            <div class="row">
-                                <div class="col-md-4 mb-5">
-                                    <div class="card text-bg-light" style="overflow: hidden;box-shadow: 0px 1px 20px #ababab;"><img class="card-img-top w-100 d-block" alt="Pancake With Sliced Strawberry" src="../assets/img/pexels-photo-376464.jpeg">
-                                        <div class="card-body text-center">
-                                            <h4 class="card-title">Plato 1</h4>
-                                            <p class="card-text">S/. 00000</p><button class="btn btn-primary w-100" type="button">Añadir</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-5">
-                                    <div class="card text-bg-light" style="overflow: hidden;box-shadow: 0px 1px 20px #ababab;"><img class="card-img-top w-100 d-block" alt="Pancake With Sliced Strawberry" src="../assets/img/pexels-photo-376464.jpeg">
-                                        <div class="card-body text-center">
-                                            <h4 class="card-title">Plato 1</h4>
-                                            <p class="card-text">S/. 00000</p><button class="btn btn-primary w-100" type="button">Añadir</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-5">
-                                    <div class="card text-bg-light" style="overflow: hidden;box-shadow: 0px 1px 20px #ababab;"><img class="card-img-top w-100 d-block" alt="Pancake With Sliced Strawberry" src="../assets/img/pexels-photo-376464.jpeg">
-                                        <div class="card-body text-center">
-                                            <h4 class="card-title">Plato 1</h4>
-                                            <p class="card-text">S/. 00000</p><button class="btn btn-primary w-100" type="button">Añadir</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-5">
-                                    <div class="card text-bg-light" style="overflow: hidden;box-shadow: 0px 1px 20px #ababab;"><img class="card-img-top w-100 d-block" alt="Pancake With Sliced Strawberry" src="../assets/img/pexels-photo-376464.jpeg">
-                                        <div class="card-body text-center">
-                                            <h4 class="card-title">Plato 1</h4>
-                                            <p class="card-text">S/. 00000</p><button class="btn btn-primary w-100" type="button">Añadir</button>
-                                        </div>
-                                    </div>
+                                <div class="tab-pane" role="tabpanel" id="tab-4">
+                                    <p>Tab content.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4">
+                    <h5 class="text-dark-emphasis" style="display: none;opacity: 0;">Resumen de pedido</h5>
                     <div class="sidebar">
-                        <div class="card bg-light bg-primary" style="box-shadow: 0px 5px 6px #cfcfcf;border-radius: 17px;overflow: hidden;">
+                        <div class="card bg-light bg-primary" style="box-shadow: 0px 5px 20px #c5c5c5;border-radius: 17px;overflow: hidden;">
                             <div class="card-body text-bg-light border-dark text-dark" style="/*position: sticky;*//*width: 420px;*//*box-shadow: 0px 6px 20px #cfcfcf;*/">
-                                <h4 class="card-title" style="font-weight: bold;">Tu pedido</h4>
-                                <h6 class="text-muted card-subtitle mb-2">Subtitle</h6>
-                                <p class="card-text">Datos</p>
+                                <h5 class="text-dark-emphasis">Resumen de pedido</h5>
+                                <ul class="text-dark-emphasis list-group list-group-flush">
+                                    <li class="list-group-item text-bg-light">
+                                        <div class="text-dark-emphasis d-flex justify-content-between align-items-center"><span>Platillo</span><input class="form-control-sm form-control cantidad-plato" type="number" min="1" value="1"><span>S/. 99.99</span><span><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-x-square-fill text-danger">
+                                                        <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm3.354 4.646L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708"></path>
+                                                    </svg></a></span></div>
+                                    </li>
+                                    <li class="list-group-item text-bg-light">
+                                        <div class="text-dark-emphasis d-flex justify-content-between align-items-center"><span>Platillo</span><input class="form-control-sm form-control cantidad-plato" type="number" min="1" value="1"><span>S/. 99.99</span><span><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-x-square-fill text-danger">
+                                                        <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm3.354 4.646L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708"></path>
+                                                    </svg></a></span></div>
+                                    </li>
+                                    <li class="list-group-item text-bg-light">
+                                        <div class="text-dark-emphasis d-flex justify-content-between align-items-center"><span>Platillo</span><input class="form-control-sm form-control cantidad-plato" type="number" min="1" value="1"><span>S/. 99.99</span><span><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-x-square-fill text-danger">
+                                                        <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm3.354 4.646L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708"></path>
+                                                    </svg></a></span></div>
+                                    </li>
+                                    <li class="list-group-item text-bg-light">
+                                        <div class="text-dark-emphasis d-flex justify-content-between align-items-center"><span>Platillo</span><input class="form-control-sm form-control cantidad-plato" type="number" min="1" value="1"><span>S/. 99.99</span><span><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-x-square-fill text-danger">
+                                                        <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm3.354 4.646L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708"></path>
+                                                    </svg></a></span></div>
+                                    </li>
+                                    <li class="list-group-item text-bg-light">
+                                        <div class="text-dark-emphasis d-flex justify-content-between align-items-center"><span>Platillo</span><input class="form-control-sm form-control cantidad-plato" type="number" min="1" value="1"><span>S/. 99.99</span><span><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-x-square-fill text-danger">
+                                                        <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm3.354 4.646L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708"></path>
+                                                    </svg></a></span></div>
+                                    </li>
+                                    <li class="list-group-item text-bg-light">
+                                        <div class="text-dark-emphasis d-flex justify-content-between align-items-center"><span>Platillo</span><input class="form-control-sm form-control cantidad-plato" type="number" min="1" value="1"><span>S/. 99.99</span><span><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-x-square-fill text-danger">
+                                                        <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm3.354 4.646L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708"></path>
+                                                    </svg></a></span></div>
+                                    </li>
+                                    <li class="list-group-item text-bg-light">
+                                        <div class="text-dark-emphasis d-flex justify-content-between align-items-center"><span>Platillo</span><input class="form-control-sm form-control cantidad-plato" type="number" min="1" value="1"><span>S/. 99.99</span><span><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-x-square-fill text-danger">
+                                                        <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm3.354 4.646L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708"></path>
+                                                    </svg></a></span></div>
+                                    </li>
+                                    <li class="list-group-item text-bg-light">
+                                        <div class="text-dark-emphasis d-flex justify-content-between align-items-center"><span>Platillo</span><input class="form-control-sm form-control cantidad-plato" type="number" min="1" value="1"><span>S/. 99.99</span><span><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-x-square-fill text-danger">
+                                                        <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm3.354 4.646L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708"></path>
+                                                    </svg></a></span></div>
+                                    </li>
+                                    <li class="text-light-emphasis list-group-item text-bg-light">
+                                        <div class="fs-5 d-flex justify-content-between align-items-center"><span><strong>Total:</strong></span><span id="total">$0</span></div>
+                                    </li>
+                                </ul><button class="btn btn-primary w-100 mt-3" type="button" style="background: #e6572a;border-style: none;">Ir a pagar</button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col"><a class="border rounded d-inline scroll-to-top" style="border-width: 1px;border-radius: 5.6px;" href="#platillos"><i class="fas fa-angle-up"></i></a></div>
+                <div class="col"><a class="border rounded d-inline scroll-to-top" style="border-width: 1px;border-radius: 5.6px;" href="#contenido"><i class="fas fa-angle-up"></i></a></div>
             </div>
         </div>
     </section>

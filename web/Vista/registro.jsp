@@ -24,7 +24,7 @@
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item"><a class="nav-link" href="../index.jsp" style="font-family: Artifika, serif;">Inicio</a></li>
                     <li class="nav-item"><a class="nav-link" href="galeria.jsp" style="font-family: Artifika, serif;">Galería</a></li>
-                    <li class="nav-item"><a class="nav-link" href="platillo.jsp" style="font-family: Artifika, serif;">Realizar Pedido</a></li>
+                    <li class="nav-item"><a class="nav-link" href="platillo.jsp" style="font-family: Artifika, serif;">Menú</a></li>
                     <li class="nav-item"><a class="nav-link" href="nosotros.jsp" style="font-family: Artifika, serif;">Sobre Nosotros</a></li>
                     <li class="nav-item"><a class="nav-link" href="contactanos.jsp" style="font-family: Artifika, serif;">Contacto</a></li>
                 </ul><a class="btn shadow" role="button" href="registro.jsp" style="font-family: Artifika, serif;background: #e1a219;color: var(--bs-emphasis-color);">Registrarme</a>

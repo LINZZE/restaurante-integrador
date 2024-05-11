@@ -23,13 +23,28 @@
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item"><a class="nav-link" href="../index.jsp" style="font-family: Artifika, serif;">Inicio</a></li>
                     <li class="nav-item"><a class="nav-link" href="galeria.jsp" style="font-family: Artifika, serif;">Galería</a></li>
-                    <li class="nav-item"><a class="nav-link" href="platillo.jsp" style="font-family: Artifika, serif;">Realizar Pedido</a></li>
+                    <li class="nav-item"><a class="nav-link" href="platillo.jsp" style="font-family: Artifika, serif;">Menú</a></li>
                     <li class="nav-item"><a class="nav-link active" href="nosotros.jsp" style="font-family: Artifika, serif;">Sobre Nosotros</a></li>
                     <li class="nav-item"><a class="nav-link" href="contactanos.jsp" style="font-family: Artifika, serif;">Contacto</a></li>
                 </ul><a class="btn shadow" role="button" href="registro.jsp" style="font-family: Artifika, serif;background: #e1a219;color: var(--bs-emphasis-color);">Registrarme</a>
             </div>
         </div>
     </nav>
+    <section id="contenido" style="background: #f5f6f8;">
+        <div class="container py-4 py-lg-5">
+            <div class="row justify-content-center">
+                <div class="col-md-4 text-dark">
+                    <h4 class="text-dark">Nosotros</h4>
+                    <p>Pretium quisque proin sodales rutrum magna conubia class euismod, himenaeos quis. Suspendisse himenaeos tincidunt etiam magna. Torquent consectetur nostra fusce, cras maecenas torquent sollicitudin nulla adipiscing morbi. Pharetra dictumst cras enim nunc integer, vulputate cubilia imperdiet hendrerit. Bibendum vivamus velit non auctor sapien ad iaculis volutpat, non aliquet. Nibh quisque.</p>
+                    <p>Senectus integer leo fermentum nulla. Nunc molestie cursus vehicula, venenatis posuere. Ante vulputate nam sollicitudin, rutrum placerat porttitor. Curabitur per fames enim convallis. Pulvinar ipsum bibendum, nisi netus ultricies. Urna hac himenaeos ligula, volutpat tortor vehicula adipiscing euismod per fringilla. Tincidunt etiam dui conubia sodales viverra, rutrum adipiscing torquent eu neque. Laoreet turpis ipsum leo placerat, dictumst augue neque inceptos.</p>
+                    <p>Aliquet nibh interdum lectus, ut a. Accumsan nisl torquent tellus curabitur eleifend sed, auctor enim. Magna tincidunt vestibulum vulputate turpis.</p>
+                    <p>Cras ac consectetur venenatis sem nisl vulputate, erat eu. Donec vulputate aenean fusce porttitor. Primis amet duis laoreet, urna vulputate.</p>
+                    <p>Dui vestibulum consequat cubilia condimentum placerat vestibulum, ornare ut. Curabitur eu mattis nam himenaeos imperdiet donec, cursus sed ut. Class.</p>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center align-items-start"><img class="img-fluid img-fluid mt-4" alt="Restaurant Table and Chairs" src="../assets/img/pexels-photo-914388.jpeg" style="max-height: 70%;width: auto;border-radius: 0px;border-top-left-radius: 100px;border-top-right-radius: 0px;border-bottom-right-radius: 100px;"></div>
+            </div>
+        </div>
+    </section>
     <footer style="background: #f5f5f5;">
         <div class="container bg-light py-4 py-lg-5" style="background: #f5f5f5;">
             <div class="row text-dark justify-content-center">
