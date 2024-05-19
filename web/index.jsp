@@ -1,7 +1,7 @@
 <%-- 
     Document   : index
     Created on : 8 may. 2024, 1:13:10 p. m.
-    Author     : Luis Armando- luis_abv@outlook.com
+    Author     : Luis Armando Bailon- luis_abv@outlook.com
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
